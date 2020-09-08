@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font: 16px/1.5 arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  color: white;
+  background-color: rgb(90,85,132);
+}
+section, footer{
+  width: 85%;
+  margin-left: 15%;
+}
+article{
+ width: 85%;
+}
+hr{
+  width: 85%;
+}
+.header{
+  position: fixed;
+  width: 15%;
+  top:0;
+  height: 100%;
+  border-right: 2px solig #fff;
+  padding:0;
+  background-color: lavender;
+}
+.nav-list{
+  display: block;
+  list-style: none;
+  margin-right: 0;
+  padding: 0;
+
+}
+.head{
+  margin-right: auto;
+  padding-right: 0;
+  font-size: 18px;
+  color: black ;
+}
+li{
+  margin-left: 5%;
+  padding: 30px;
+  border-bottom: 3px solid white;
+  color: white;
+}
+li a:hover{
+  background-color: orange;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+}
+.banner{
+  top:0;
+  background-image: url("./img/code.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+section .text{
+  padding: 90px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+
+}
+#about,#pro{
+  text-align: center;
+  padding:20px;
+}
+#projects .pic{
+
+}
+img{
+  width: 50%;
+  height: 35%;
+}
+.projects{
+  align-content: center;
+  display: block;
+  text-align: center;
+  width: 60%;
+  padding: 100px;
+  height: 40%;
+  padding: 50px;
+  color: black ;
+  margin-left: 23%;
+
+}
+.pic{
+  box-shadow: 2px 8px 6px rgba(0,0,0,0.8);
+  background-color: lavender;
+}
+.pic img{
+  width: 100%;
+}
+.txt{
+  padding: 10px;
+}
+button{
+  width: 70px;
+}
+#pro,#about{
+  font-size: 14px;
+}
+footer{
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+.contacts{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 30px;
+  margin-left: 20%;
+  margin-right: 0%;
+}
+#about img{
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+@media(max-width: 1030px){
+  section, footer , article{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  hr{
+    width: 100%;
+  }
+  .header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding:0;
+    height: 10%;
+   }
+  .nav-list{
+    display: flex;
+    justify-content:  space-between;
+    list-style: none;
+    margin-right: 0;
+    padding: 0;
+
+  }
+  .head{
+    margin-right: auto;
+    padding-right: 0;
+    font-size:60px;
+  }
+  li{
+    margin-left: 0;
+    padding: 5px;
+    color: white;
+  }
+  li a:hover{
+    background-color: orange;
+    padding: 20px;
+}
+.banner{
+  top: auto;
+}
+.projects{
+  align-content: center;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 40%;
+  color: black ;
+  margin:auto ;
+}
+.contacts{
+  display: block;
+}
+}
